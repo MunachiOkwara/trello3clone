@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.height{
+    height: 100vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.heightbody{
+    height: 100%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heightbodywrapper{
+    height: 90%;
+    width: 100%;
+    /* background-color: orangered; */
+    
+}
+
+.onebox{
+    height: 22%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.onebox p{
+    margin-left: 7%;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(9,30,66);
+}
+
+.onebox h1{
+    margin-left: 7%;
+    font-size: 230%;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(9,30,66);
+    margin-top: 10px;
+}
+
+.twobox{
+    height: 10%;
+    width: 15%;
+    /* background-color: blue; */
+    margin-left: 75%;
+    cursor: pointer;
+}
+
+.twobox img{
+    margin-left: 40%;
+}
+
+.thirdbox{
+    height: 45%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.look{
+    height: 100%;
+    width: 25%;
+    /* background-color: black; */
+    margin-left: 7%;
+}
+
+.look img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.at{
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(221, 45, 45); */
+}
+
+.at img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.your{
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(63, 225, 19); */
+}
+
+.your img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.head{
+    height: 100%;
+    width: 7%;
+    /* background-color: blueviolet; */
+}
+
+.head img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.fourthbox{
+    height: 23%;
+    width: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.thistext{
+    height: 100%;
+    width: 55%;
+    /* background-color: yellow; */
+    margin-left: 3%;
+}
+
+.thistext ul{
+    list-style: none;
+    font-size: x-large;
+    font-weight: 400;
+    font-family: normal;
+    margin-top: 7%;
+    color: rgb(9,30,66);
+}
+
+
+.thisbutton{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(249, 127, 27); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thisbutton button{
+    height: 42%;
+    width: 75%;
+    border-radius: 7px;
+    border-color:rgb(53, 53, 139) ;
+    font-size: medium;
+    background-color: white;
+    cursor: pointer;
+}
+
+.thisbutton button:hover{
+    background:rgb(182, 234, 218);
+    transition: all(500ms)ease-in;
+}
